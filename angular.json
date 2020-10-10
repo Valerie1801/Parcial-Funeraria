@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Funeraria"
+    }
+  },
+  "defaultProject": "Funeraria",
+  "cli": {
+    "analytics": "68c77f85-19f0-408c-ab26-0463b7a6590a"
+  }
 }
