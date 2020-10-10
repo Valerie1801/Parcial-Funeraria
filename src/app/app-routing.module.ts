@@ -1,7 +1,5 @@
-import { formatNumber } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
 import { ContactenosComponent } from "./paginas/contactenos/contactenos.component"
 import { CorosComponent } from "./paginas/coros/coros.component"
 import { CremacionesComponent } from "./paginas/cremaciones/cremaciones.component"
