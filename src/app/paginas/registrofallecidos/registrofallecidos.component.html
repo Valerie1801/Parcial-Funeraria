@@ -1,1 +1,105 @@
+<app-navbar></app-navbar>
 
+<form class="was-validated">
+
+  <div class="container mt-5">
+    <img src="/assets/images/tarifasHead.jpg" class="img-fluid" alt="Responsive image">
+  </div>
+
+
+  <div class="container text-center mt-5">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 offset-md-3 offset-lg-3 offset-xl-3">
+
+      <div class="card">
+        <div class="card-header">
+          Datos Personales del Fallecido
+        </div>
+        <ul class="list-group list-group-flush">
+          <div class="mb-3">
+            <label for="validationTextarea">Numero Documento</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Numero Documento del Fallecido" required>
+            <label for="validationTextarea">Nombres</label>
+            <input type="text" class="form-control is-invalid" id="validationNombres"
+              placeholder="Nombres del Fallecido" required>
+            <label for="validationTextarea">Apellidos</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Apellido del Fallecido" required>
+          </div>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          Datos Adicionales
+        </div>
+        <ul class="list-group list-group-flush">
+          <div class="mb-3">
+            <label for="validationTextarea">Causa de Muerte</label>
+            <input type="text" class="form-control is-invalid" id="CausadeMuerte"
+              placeholder="Causa de Muerte" required>
+              <label for="validationTextarea mt-1">Tipo de Sepultura </label>
+            <div class="row">
+
+              <div class="col-6">
+                <div class="custom-control custom-radio">
+                  <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked"
+                    required>
+                  <label class="custom-control-label" for="customControlValidation2">Sepultura Natural</label>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="custom-control custom-radio ">
+                  <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked"
+                    required>
+                  <label class="custom-control-label" for="customControlValidation3">Cremación </label>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          Familiares del Fallecido
+        </div>
+        <ul class="list-group list-group-flush">
+          <div class="mb-3">
+            <label for="validationTextarea">Numero Documento del Padre</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Numero Documento del Padre" required>
+            <label for="validationTextarea">Nombres del Padre</label>
+            <input type="text" class="form-control is-invalid" id="validationNombres"
+              placeholder="Nombres del Padre" required>
+            <label for="validationTextarea">Apellidos del Padre</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Apellido del Padre" required>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea">Numero Documento de la Madre</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Numero Documento de la Madre" required>
+            <label for="validationTextarea">Nombresde la Madre</label>
+            <input type="text" class="form-control is-invalid" id="validationNombres"
+              placeholder="Nombresde la Madre" required>
+            <label for="validationTextarea">Apellidosde la Madre</label>
+            <input type="text" class="form-control is-invalid" id="validationApellidos"
+              placeholder="Apellidode la Madre" required>
+          </div>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-primary mt-2" onsubmit="">Registrar Difunto</button>
+
+    </div>
+  </div>
+
+
+
+
+
+</form>
+<app-pie></app-pie>

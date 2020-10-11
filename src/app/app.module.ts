@@ -37,8 +37,9 @@ import { RegistrofallecidosComponent } from './paginas/registrofallecidos/regist
     TablaComponent,
     ImgcapComponent,
     CardgroupComponent,
-    RegistroComponent,
-    RegistrofallecidosComponent
+    RegistrofallecidosComponent,
+    RegistroComponent
+
   ],
   imports: [
     BrowserModule,
