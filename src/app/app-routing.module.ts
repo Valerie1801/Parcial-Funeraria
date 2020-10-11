@@ -9,6 +9,7 @@ import { SepeliosComponent } from "./paginas/sepelios/sepelios.component"
 
 import { RegistrofallecidosComponent } from "./paginas/registrofallecidos/registrofallecidos.component"
 import { TarifasComponent } from "./paginas/tarifas/tarifas.component"
+import { RegistroComponent } from './componentes/registro/registro.component'
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'sepelios', component: SepeliosComponent },
   { path: 'tarifas', component: TarifasComponent },
-  { path: 'regristrofallecidos', component: RegistrofallecidosComponent }
+  { path: 'regristrofallecidos', component: RegistrofallecidosComponent },
+  { path: 'regristro', component: RegistroComponent }
 
 ]
 
