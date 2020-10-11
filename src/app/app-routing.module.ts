@@ -7,7 +7,7 @@ import { FloresComponent } from "./paginas/flores/flores.component"
 import { HomeComponent } from "./paginas/home/home.component"
 import { SepeliosComponent } from "./paginas/sepelios/sepelios.component"
 
-import { ServiciosComponent } from "./paginas/servicios/servicios.component"
+import { RegistrofallecidosComponent } from "./paginas/registrofallecidos/registrofallecidos.component"
 import { TarifasComponent } from "./paginas/tarifas/tarifas.component"
 
 
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'flores', component: FloresComponent },
   { path: '', component: HomeComponent },
   { path: 'sepelios', component: SepeliosComponent },
-  { path: 'servicios', component: ServiciosComponent },
+  { path: 'servicios', component: RegistrofallecidosComponent },
   { path: 'tarifas', component: TarifasComponent }
 
 ]
