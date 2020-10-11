@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { HomeComponent } from './paginas/home/home.component';
-import { ServiciosComponent } from './paginas/servicios/servicios.component';
 import { SepeliosComponent } from './paginas/sepelios/sepelios.component';
 import { CremacionesComponent } from './paginas/cremaciones/cremaciones.component';
 import { TarifasComponent } from './paginas/tarifas/tarifas.component';
@@ -19,13 +18,13 @@ import { TablaComponent } from './componentes/tabla/tabla.component';
 import { ImgcapComponent } from './componentes/imgcap/imgcap.component';
 import { CardgroupComponent } from './componentes/cardgroup/cardgroup.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { RegistrofallecidosComponent } from './paginas/registrofallecidos/registrofallecidos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ServiciosComponent,
     SepeliosComponent,
     CremacionesComponent,
     TarifasComponent,
@@ -38,7 +37,8 @@ import { RegistroComponent } from './componentes/registro/registro.component';
     TablaComponent,
     ImgcapComponent,
     CardgroupComponent,
-    RegistroComponent
+    RegistroComponent,
+    RegistrofallecidosComponent
   ],
   imports: [
     BrowserModule,
