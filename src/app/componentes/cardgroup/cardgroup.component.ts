@@ -7,9 +7,9 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class CardgroupComponent implements OnInit {
 
-  @Input() rutaimg1:string;
+  @Input() rutaimg:string;
 
-  @Input() titulo1:string;
+  @Input() titulo:string;
   
 
   constructor() { }
