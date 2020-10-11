@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { HomeComponent } from './paginas/home/home.component';
-import { SepeliosComponent } from './paginas/sepelios/sepelios.component';
-import { CremacionesComponent } from './paginas/cremaciones/cremaciones.component';
 import { TarifasComponent } from './paginas/tarifas/tarifas.component';
 import { ContactenosComponent } from './paginas/contactenos/contactenos.component';
 import { FloresComponent } from './paginas/flores/flores.component';
@@ -25,8 +23,6 @@ import { RegistrofallecidosComponent } from './paginas/registrofallecidos/regist
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    SepeliosComponent,
-    CremacionesComponent,
     TarifasComponent,
     ContactenosComponent,
     FloresComponent,
