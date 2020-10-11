@@ -18,6 +18,7 @@ import { CarruselComponent } from './componentes/carrusel/carrusel.component';
 import { TablaComponent } from './componentes/tabla/tabla.component';
 import { ImgcapComponent } from './componentes/imgcap/imgcap.component';
 import { CardgroupComponent } from './componentes/cardgroup/cardgroup.component';
+import { RegistroComponent } from './componentes/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CardgroupComponent } from './componentes/cardgroup/cardgroup.component'
     CarruselComponent,
     TablaComponent,
     ImgcapComponent,
-    CardgroupComponent
+    CardgroupComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
