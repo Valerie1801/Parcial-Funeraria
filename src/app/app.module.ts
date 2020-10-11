@@ -11,7 +11,6 @@ import { FloresComponent } from './paginas/flores/flores.component';
 import { CorosComponent } from './paginas/coros/coros.component';
 import { PieComponent } from './componentes/pie/pie.component';
 import { CardsComponent } from './componentes/cards/cards.component';
-import { CarruselComponent } from './componentes/carrusel/carrusel.component';
 import { TablaComponent } from './componentes/tabla/tabla.component';
 import { ImgcapComponent } from './componentes/imgcap/imgcap.component';
 import { CardgroupComponent } from './componentes/cardgroup/cardgroup.component';
@@ -29,7 +28,6 @@ import { RegistrofallecidosComponent } from './paginas/registrofallecidos/regist
     CorosComponent,
     PieComponent,
     CardsComponent,
-    CarruselComponent,
     TablaComponent,
     ImgcapComponent,
     CardgroupComponent,
